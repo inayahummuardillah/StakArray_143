@@ -29,4 +29,11 @@ public:
 		cout << element << "ditambahkan(pushed)" << endl;
 
 	}
+
+	void pop() {
+		if (empty()) {  //step 1
+			cout << "\nStack is empty. cannot pop." << endl;//1.a
+			return; //1.b
+		}
+	}
 };
