@@ -71,5 +71,9 @@ int main() {
 		getline(cin, input);
 		char ch = (input.empty() ? '0' : input[0]);
 		switch (ch) {
-	}
+		case '1': {
+			s.push();
+			break;
+		}
+		}
 }
